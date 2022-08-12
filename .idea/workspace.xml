@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/DoSomethingSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/Doable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/poniperro/proxypattern/mrmeeseeks/AppStaticMethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeksTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CMOBJ6Jd5tjgPhui4kVTNUkbtI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.poniperro.proxypattern.mrmeeseeks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MrMeeseeksTest.formulateRequestTest">
+    <configuration name="AppStaticMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recuperacion2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.poniperro.proxypattern.mrmeeseeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.poniperro.proxypattern.mrmeeseeks" />
+      <option name="MAIN_CLASS_NAME" value="edu.poniperro.proxypattern.mrmeeseeks.AppStaticMethodsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MrMeeseeksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recuperacion2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.poniperro.proxypattern.mrmeeseeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.poniperro.proxypattern.mrmeeseeks" />
+      <option name="MAIN_CLASS_NAME" value="edu.poniperro.proxypattern.mrmeeseeks.MrMeeseeksTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MrMeeseeksTest.formulateRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recuperacion2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.poniperro.proxypattern.mrmeeseeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.poniperro.proxypattern.mrmeeseeks" />
+      <option name="MAIN_CLASS_NAME" value="edu.poniperro.proxypattern.mrmeeseeks.MrMeeseeksTest" />
+      <option name="METHOD_NAME" value="formulateRequestTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MrMeeseeksTest.formulateRequestTest" />
+        <item itemvalue="JUnit.MrMeeseeksTest" />
+        <item itemvalue="JUnit.AppStaticMethodsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="" />
+      <created>1658608851652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658608851652</updated>
+      <workItem from="1658608853104" duration="1911000" />
+      <workItem from="1658747101236" duration="2099000" />
+      <workItem from="1658756459223" duration="824000" />
+      <workItem from="1658757306006" duration="91000" />
+      <workItem from="1658919378707" duration="1665000" />
+      <workItem from="1658946019930" duration="2668000" />
+      <workItem from="1659006653088" duration="1453000" />
+      <workItem from="1659215369145" duration="132000" />
+      <workItem from="1660068520127" duration="4465000" />
+      <workItem from="1660332193935" duration="379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
