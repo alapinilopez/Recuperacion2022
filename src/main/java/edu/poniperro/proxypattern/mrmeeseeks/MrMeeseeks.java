@@ -62,9 +62,9 @@ public class MrMeeseeks {
 
     }
 
-    //public void doRequest(String, String) {
+    public void doRequest(String, String) {
 
-    //}
+    }
 
     public void stopExisting() {
 
