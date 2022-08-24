@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="feat: MrMeseek&#10;&#10;Pasar el caso test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/DoSomethingSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/DoSomethingSimple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/Doable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/Doable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" afterDir="false" />
@@ -166,7 +163,7 @@
       <workItem from="1660749626347" duration="1680000" />
       <workItem from="1660906227417" duration="640000" />
       <workItem from="1661163849639" duration="3082000" />
-      <workItem from="1661350684603" duration="4941000" />
+      <workItem from="1661350684603" duration="6623000" />
     </task>
     <task id="LOCAL-00001" summary="Añadir todas las clases">
       <created>1660332809995</created>
@@ -196,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661350740334</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Completa detalles boxProxy&#10;&#10;Escribir las funciones de la clase, pasar casos test">
+      <created>1661355920448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661355920448</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme">
+      <created>1661356019971</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661356019971</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +229,9 @@
     <MESSAGE value="Readme" />
     <MESSAGE value="Images" />
     <MESSAGE value="feat: MrMeseek&#10;&#10;Pasar el caso test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: MrMeseek&#10;&#10;Pasar el caso test" />
+    <MESSAGE value="feat: Completa detalles boxProxy&#10;&#10;Escribir las funciones de la clase, pasar casos test" />
+    <MESSAGE value="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -229,5 +242,13 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.github.lppedd.cc.CommitBuilderDialog">
+    <type>feat</type>
+    <subject>Terminar</subject>
+    <body>Termina el ejersisio</body>
+    <footers>
+      <entry type="" value="" />
+    </footers>
   </component>
 </project>

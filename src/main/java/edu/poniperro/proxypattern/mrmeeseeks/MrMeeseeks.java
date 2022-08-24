@@ -11,9 +11,9 @@ public class MrMeeseeks implements Doable{
     private String[] messageOnRequest;
     private String messageOnExplode;
     private String[] request;
-    private List<String> requestAsList;
+    private List<String> requestAsList; //Nunca se usa ¿?
 
-    public MrMeeseeks() {
+    public MrMeeseeks() { //
         id = MrMeeseeks.ID_GENERATOR.getAndAdd(1);
         this.sayMessageOnCreate();
         this.messageOnRequest = new String[]{"Oooh yeah, can do!", "Oooh yeah, yes ma'am"};
@@ -23,7 +23,6 @@ public class MrMeeseeks implements Doable{
 
     public Integer getId() {
         return id;
-
     }
 
     public String[] getMessageOnRequest() {
@@ -44,7 +43,7 @@ public class MrMeeseeks implements Doable{
     }
 
     public void sayMessageOnCreate() {
-        System.out.println("I'm Mr Meeseeks " + this.id + ". Look at meeee");
+        System.out.println("I'm Mr Meeseeks " + this.id + ". Look at meeee!");
     }
 
     public void sayMessageOnRequest() {
@@ -56,7 +55,7 @@ public class MrMeeseeks implements Doable{
     }
 
     public void sayMessageOnDone() {
-        System.out.println("All done!");
+        System.out.println("All done! \n");
     }
 
     public void sayMessageOnExplode() {
@@ -65,22 +64,23 @@ public class MrMeeseeks implements Doable{
 
     public void formulateRequest(String request) {
         this.setRequest(request);
-        this.sayMessageOnRequest();
-        this.sayMessageOnDone();
+        this.fulfillRequest();
     }
 
     public void fulfillRequest() {
-
+        this.sayMessageOnRequest();
+        this.doRequest("String", this.getRequest());
+        this.sayMessageOnDone();
     }
 
-    public void stopExisting() {
-
+    private void stopExisting() {
+        //no sé dónde emplearlo :(
+        //borrar de la lista?
     }
 
     @Override
-    public void doRequest(String type) {
-
-
+    public void doRequest(String type, String request) {
+        System.out.println(request);
     }
 
     @Override
