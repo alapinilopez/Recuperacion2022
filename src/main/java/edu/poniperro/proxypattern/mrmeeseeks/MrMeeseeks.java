@@ -2,21 +2,28 @@ package edu.poniperro.proxypattern.mrmeeseeks;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
+import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class MrMeeseeks {
-    private static AtomicInteger ID_GENERATOR;
+public class MrMeeseeks implements Doable{
+    private static AtomicInteger ID_GENERATOR = new AtomicInteger(1001);
     private Integer id;
     private String[] messageOnRequest;
     private String messageOnExplode;
     private String[] request;
     private List<String> requestAsList;
 
-    public MrMeeseeks(){}
+    public MrMeeseeks() {
+        id = MrMeeseeks.ID_GENERATOR.getAndAdd(1);
+        this.sayMessageOnCreate();
+        this.messageOnRequest = new String[]{"Oooh yeah, can do!", "Oooh yeah, yes ma'am"};
+        this.messageOnExplode = "Poooooof " + this.id;
+
+    }
 
     public Integer getId() {
         return id;
+
     }
 
     public String[] getMessageOnRequest() {
@@ -32,44 +39,53 @@ public class MrMeeseeks {
         return String.join(" ", this.request);
     }
 
-    public int lengthMessageOnRequest()  {
+    private int lengthMessageOnRequest()  {
         return messageOnRequest.length;
     }
 
     public void sayMessageOnCreate() {
-
+        System.out.println("I'm Mr Meeseeks " + this.id + ". Look at meeee");
     }
 
     public void sayMessageOnRequest() {
+        System.out.println(generateMessageOnRequest());
     }
 
-    public String generateMessageOnRequest() {
-        return null;
+    private String generateMessageOnRequest() {
+        return this.messageOnRequest[new Random().nextInt(lengthMessageOnRequest())] ;
     }
 
     public void sayMessageOnDone() {
-
+        System.out.println("All done!");
     }
 
     public void sayMessageOnExplode() {
-
+        System.out.println(this.messageOnExplode);
     }
 
     public void formulateRequest(String request) {
         this.setRequest(request);
-        // this.getRequest();
-
+        this.sayMessageOnRequest();
+        this.sayMessageOnDone();
     }
 
     public void fulfillRequest() {
 
     }
 
-    public void doRequest(String request1, String request2) {
-
-    }
-
     public void stopExisting() {
 
     }
+
+    @Override
+    public void doRequest(String type) {
+
+
+    }
+
+    @Override
+    public String toString() {
+        return this.getId().toString();
+    }
+
 }
