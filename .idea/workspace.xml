@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="Añadir todas las clases">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="Images">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,7 +47,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,7 +56,7 @@
       <recent name="edu.poniperro.proxypattern.mrmeeseeks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.MrMeeseeksTest.formulateRequestTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.poniperro.proxypattern.mrmeeseeks.App" />
       <module name="Recuperacion2022" />
@@ -116,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.MrMeeseeksTest.formulateRequestTest" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.MrMeeseeksTest" />
         <item itemvalue="JUnit.AppStaticMethodsTest" />
       </list>
@@ -142,7 +144,8 @@
       <workItem from="1660068520127" duration="4465000" />
       <workItem from="1660332193935" duration="2016000" />
       <workItem from="1660749626347" duration="1680000" />
-      <workItem from="1660906227417" duration="471000" />
+      <workItem from="1660906227417" duration="640000" />
+      <workItem from="1661163849639" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="Añadir todas las clases">
       <created>1660332809995</created>
@@ -151,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660332809995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Readme">
+      <created>1660906724907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660906724907</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Images">
+      <created>1660906748270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660906748270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +187,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Añadir todas las clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadir todas las clases" />
+    <MESSAGE value="Readme" />
+    <MESSAGE value="Images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

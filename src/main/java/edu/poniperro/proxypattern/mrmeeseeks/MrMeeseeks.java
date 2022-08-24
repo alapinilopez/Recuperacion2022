@@ -1,5 +1,6 @@
 package edu.poniperro.proxypattern.mrmeeseeks;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -22,12 +23,13 @@ public class MrMeeseeks {
         return messageOnRequest;
     }
 
-    public void setRequest(String[] request) {
-        this.request = request;
+    public void setRequest(String request) {
+        this.request = request.split(" ");
+        this.requestAsList = Arrays.asList(this.request);
     }
 
-    public String[] getRequest() {
-        return request;
+    public String getRequest() {
+        return String.join(" ", this.request);
     }
 
     public int lengthMessageOnRequest()  {
@@ -54,7 +56,8 @@ public class MrMeeseeks {
     }
 
     public void formulateRequest(String request) {
-        this.getRequest();
+        this.setRequest(request);
+        // this.getRequest();
 
     }
 
@@ -62,7 +65,7 @@ public class MrMeeseeks {
 
     }
 
-    public void doRequest(String, String) {
+    public void doRequest(String request1, String request2) {
 
     }
 
