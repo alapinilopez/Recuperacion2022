@@ -4,18 +4,22 @@ import java.util.Collection;
 
 public class BoxProxyMrMeeseeks {
 
-    protected BoxProxyMrMeeseeks() {}
+    private static BoxProxyMrMeeseeks boxProxyMrMeeseeks;
+    private BoxProxyMrMeeseeks() {}
     public static BoxProxyMrMeeseeks getInstanceBox() {
-
-        return null;
+        if (boxProxyMrMeeseeks == null) {
+            boxProxyMrMeeseeks = new BoxProxyMrMeeseeks();
+        }
+        return boxProxyMrMeeseeks;
     }
 
     private MrMeeseeks createMrMeeseeks() {
+        MrMeeseeks mrMeeseeks = new MrMeeseeks();
+        return mrMeeseeks;
 
-        return null;
     }
 
     public void pushButton(Collection<MrMeeseeks> mrMeeseeks) {
-
+        mrMeeseeks.add(createMrMeeseeks());
     }
 }
