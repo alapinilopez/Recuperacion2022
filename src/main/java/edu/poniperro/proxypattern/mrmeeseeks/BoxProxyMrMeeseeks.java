@@ -14,9 +14,7 @@ public class BoxProxyMrMeeseeks {
     }
 
     private MrMeeseeks createMrMeeseeks() {
-        MrMeeseeks mrMeeseeks = new MrMeeseeks();
-        return mrMeeseeks;
-
+        return new MrMeeseeks();
     }
 
     public void pushButton(Collection<MrMeeseeks> mrMeeseeks) {

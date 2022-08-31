@@ -11,14 +11,13 @@ public class MrMeeseeks implements Doable{
     private String[] messageOnRequest;
     private String messageOnExplode;
     private String[] request;
-    private List<String> requestAsList; //Nunca se usa ¿?
+    private List<String> requestAsList; //Nunca lo llego a usar
 
-    public MrMeeseeks() { //
+    public MrMeeseeks() {
         id = MrMeeseeks.ID_GENERATOR.getAndAdd(1);
         this.sayMessageOnCreate();
         this.messageOnRequest = new String[]{"Oooh yeah, can do!", "Oooh yeah, yes ma'am"};
         this.messageOnExplode = "Poooooof " + this.id;
-
     }
 
     public Integer getId() {
@@ -87,5 +86,4 @@ public class MrMeeseeks implements Doable{
     public String toString() {
         return this.getId().toString();
     }
-
 }

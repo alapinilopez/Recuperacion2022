@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme">
+    <list default="true" id="1dc6aac6-db03-49ba-88b8-9bc114c345bd" name="Changes" comment="feat: Terminar&#10;&#10;Termina el ejersisio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/DoSomethingSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/DoSomethingSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/Doable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/Doable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/BoxProxyMrMeeseeks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/poniperro/proxypattern/mrmeeseeks/MrMeeseeks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,8 +134,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppStaticMethodsTest" />
         <item itemvalue="JUnit.BoxProxyMrMeeseeksTest" />
+        <item itemvalue="JUnit.AppStaticMethodsTest" />
         <item itemvalue="JUnit.BoxProxyMrMeeseeksTest.pushButtonTest" />
         <item itemvalue="JUnit.MrMeeseeksTest.formulateRequestTest" />
       </list>
@@ -163,7 +162,7 @@
       <workItem from="1660749626347" duration="1680000" />
       <workItem from="1660906227417" duration="640000" />
       <workItem from="1661163849639" duration="3082000" />
-      <workItem from="1661350684603" duration="6623000" />
+      <workItem from="1661350684603" duration="8525000" />
     </task>
     <task id="LOCAL-00001" summary="Añadir todas las clases">
       <created>1660332809995</created>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661356019971</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Terminar&#10;&#10;Termina el ejersisio">
+      <created>1661357366927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661357366927</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +237,8 @@
     <MESSAGE value="feat: MrMeseek&#10;&#10;Pasar el caso test" />
     <MESSAGE value="feat: Completa detalles boxProxy&#10;&#10;Escribir las funciones de la clase, pasar casos test" />
     <MESSAGE value="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Escribe println&#10;&#10;Terminar los println para así &quot;calcar&quot; el output del readme" />
+    <MESSAGE value="feat: Terminar&#10;&#10;Termina el ejersisio" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Terminar&#10;&#10;Termina el ejersisio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -242,13 +249,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.github.lppedd.cc.CommitBuilderDialog">
-    <type>feat</type>
-    <subject>Terminar</subject>
-    <body>Termina el ejersisio</body>
-    <footers>
-      <entry type="" value="" />
-    </footers>
   </component>
 </project>
